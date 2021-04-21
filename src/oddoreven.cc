@@ -6,9 +6,9 @@ bool oddOrEven(int n)
 {
   if (n % 2 == 0)
   {
-    return 0;
+    return true;
   }
-  return 1;
+  return false;
 }
 
 int main()
@@ -18,7 +18,7 @@ int main()
   cout << "Enter a number \n";
   cin >> n;
 
-  if (oddOrEven(n) == 0)
+  if (oddOrEven(n))
   {
     cout << "Even";
   }
