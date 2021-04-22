@@ -5,13 +5,13 @@ using namespace std;
 
 int main()
 {
-  float a, b, c, result, s;
+  float a, b, c;
 
   cout << "Input the sides of a triangle";
   cin >> a >> b >> c;
 
-  s = (a + b + c) / 2;
-  result = sqrt(s * (s - a)*(s - b)*(s - c));
+  float s = (a + b + c) / 2;
+  float result = sqrt(s * (s - a)*(s - b)*(s - c));
 
   cout << result;
 }
