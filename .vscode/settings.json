@@ -60,5 +60,9 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.o && $dir$fileNameWithoutExt.o"
+  }
 }
