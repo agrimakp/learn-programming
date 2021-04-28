@@ -1,20 +1,12 @@
 #include <iostream>
+#define PI 3.14;
 
 using namespace std;
-
-typedef int pup;
 
 int main()
 {
 
-  pup x, y;
-  pup z;
-
-
-  x = 111;
-  y = 222;
-
-  z = x + y;
+  float z = 2 * PI;
 
   cout << z << endl;
 }
