@@ -13,6 +13,7 @@ int main()
   y = 22.567;
 
 
+  // assigning to an int will cause decimal points to be lost
   z = x + y;
 
 
