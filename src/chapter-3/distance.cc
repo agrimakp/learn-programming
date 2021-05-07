@@ -17,9 +17,8 @@ int main()
   while (t < 50)
   {
 
-    float distance = (u * t) + ((a * sqrt(t)) / 2);
+    float distance = (u * t) + ((a * pow(t, 2)) / 2);
     cout << t << " - " << distance << endl;
     t += timeInterval;
-
   }
 }
