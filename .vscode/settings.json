@@ -59,7 +59,8 @@
     "thread": "cpp",
     "cinttypes": "cpp",
     "typeinfo": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "climits": "cpp"
   },
   "code-runner.runInTerminal": true,
   "code-runner.executorMap": {
