@@ -20,7 +20,7 @@ void printBar(int input)
 int main()
 {
   float n, m, l, k;
-  cout << "enter a row limit";
+  cout << "enter input";
   cin >> n >> m >> l >> k;
 
   float inputn = round(n); //2
