@@ -26,11 +26,11 @@ int main()
     {
       if (num % 2 == 0)
       {
-        cout << "0 ";
+        cout << "1 ";
       }
       else
       {
-        cout << "1 ";
+        cout << "0 ";
       }
 
       num += 1;
