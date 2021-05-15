@@ -11,13 +11,11 @@ int main()
     {
       if(i == 1 || i == 5){
         cout << " S ";
-      }
-      if(i == 2 || i == 3 || i == 4){
+      } else {
 
         if(j == 1 || j == 5) {
          cout << " S ";
-        }
-        if( j == 2 || j == 3 || j == 4){
+        } else {
           cout << "   ";
         }
 
